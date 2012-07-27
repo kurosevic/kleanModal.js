@@ -38,7 +38,7 @@
 						 closeModal(modal_id);                    
 					});
 					
-					$('.save').bind('click', function() {
+					$(modal_id+' .save').bind('click', function() {
 						options.onClickSave( modal_id, closeModal );
 					});
 								
