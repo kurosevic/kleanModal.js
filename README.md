@@ -23,8 +23,8 @@
 ```
     options = {
         beforeModalOpen: function() {},
-				onModalOpen: function() {},
-				onModalClose: function() {},
-				onClickSave: function() {}
+		onModalOpen: function() {},
+		onModalClose: function() {},
+		onClickSave: function() {}
     };
 ```
