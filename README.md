@@ -8,6 +8,7 @@
 		modal: '#idOfModal',			// selector for the modal
 		closeButton: '.someSelector', 	// is additional... anything called .cancel will automatically work
 		onClickSave: function( modal_id, closeModal ) {
+			// a save button must have save class: <a href="#" class="save"> ... </a>
 			// To Indentify Modal By ID: use modal_id param to identify the ID of the open window
 			alert( modal_id );
 			
