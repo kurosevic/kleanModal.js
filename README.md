@@ -1,6 +1,6 @@
 # kleanModal.js
 
-> kleanModal.js is a fork of the leanModal.js that has added callbacks for before modal open, close modal, etc, that will allow you do be slightly more flexible in what you do with your modals.
+**kleanModal.js is a fork of the leanModal.js that has added callbacks for before modal open, close modal, etc, that will allow you do be slightly more flexible in what you do with your modals.**
 
 ## How To Use This Modal:
 ```
