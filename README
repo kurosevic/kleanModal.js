@@ -1,5 +1,7 @@
-How To Use This Modal:
+# kleanModal.js
 
+## How To Use This Modal:
+```
   $( clickMeToOpen ).openModal({
 		modal: '#idOfModal',			// selector for the modal
 		closeButton: '.someSelector', 	// is additional... anything called .cancel will automatically work
@@ -13,11 +15,14 @@ How To Use This Modal:
 		}
 	});
 	//click to open modal, write callback, set close button
+```
 
-Other available callback functions:
+## Other available callback functions:
+```
     options = {
         beforeModalOpen: function() {},
 				onModalOpen: function() {},
 				onModalClose: function() {},
 				onClickSave: function() {}
-    }
+    };
+```
